@@ -1,4 +1,4 @@
-# E-Commerce Portfolio
+# Disruptive Advertisement Portfolio
 
 <dl>
 <dt>Course Name</dt>
@@ -6,16 +6,16 @@
 <dt>Course Code</dt>
 <dd>23ECSE309</dd>
 <dt>Name</dt>
-<dd>Prakash Hegade</dd>
+<dd>Pranav Bhat</dd>
 <dt>University</dt>
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
 * * *
 
-> A step towards better e-commerce management
+> A step towards intelligent Advertisements
 >
-> PH
+> PB
 
 #### Note:
 This page hosts:
@@ -32,4 +32,4 @@ This page hosts:
 * * *
 
 ### Prerequisites
-* Code List 1 [Union-Find](https://github.com/prakashbh/day-today-codes/blob/master/10-union-find-basic.c) concepts.
+* loren ipsum

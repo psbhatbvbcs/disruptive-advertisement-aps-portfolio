@@ -11,11 +11,15 @@
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
+* * *
+
 > A step towards intelligent Advertisements
 >
 > PB
 
-## Note: This page hosts:
+#### Note:
+This page hosts:
+
 1. [Introduction](#introduction)
 2. [Why Portfolio](#why-portfolio)
 3. [Objectives](#objectives)
@@ -23,29 +27,28 @@
 5. [Challenges](#challenges)
 6. [To-Do](#to-do)
 
+
+* * *
+
 ### Prerequisites
 * loren ipsum
 
-### Introduction
+* * *
 
-<!-- Add content for the Introduction section here -->
+## Introduction <a name="introduction"></a>
+[Back to Top](#disruptive-advertisement-portfolio)
 
-### Why Portfolio
+## Why Portfolio <a name="why-portfolio"></a>
+[Back to Top](#disruptive-advertisement-portfolio)
 
-<!-- Add content for the Why Portfolio section here -->
+## Objectives <a name="objectives"></a>
+[Back to Top](#disruptive-advertisement-portfolio)
 
-### Objectives
+## Design <a name="design"></a>
+[Back to Top](#disruptive-advertisement-portfolio)
 
-<!-- Add content for the Objectives section here -->
+## Challenges <a name="challenges"></a>
+[Back to Top](#disruptive-advertisement-portfolio)
 
-### Design
-
-<!-- Add content for the Design section here -->
-
-### Challenges
-
-<!-- Add content for the Challenges section here -->
-
-### To-Do
-
-<!-- Add content for the To-Do section here -->
+## To-Do <a name="to-do"></a>
+[Back to Top](#disruptive-advertisement-portfolio)

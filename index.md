@@ -61,7 +61,7 @@ By the end of this portfolio project, I aim to achieve the following objectives:
 
 1. **Learn New Algorithms**: Explore and implement new algorithms relevant to ad suggestion and targeting to enhance my algorithmic problem-solving skills.
 
-    <img src="https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/7ef20950-49f7-42af-9dd1-78a09fb5a7b8" alt="Screenshot 1" style="width: 55%;">
+    <img src="https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/7ef20950-49f7-42af-9dd1-78a09fb5a7b8" alt="Screenshot 1">
 
 2. **Build a Simulation of the Ad Suggestion Process**: Develop a simulation of the ad suggestion process to understand the underlying algorithms and mechanisms involved.
 
@@ -79,8 +79,8 @@ By the end of this portfolio project, I aim to achieve the following objectives:
 
 7. **Implement Targeted Advertising Mechanism**: Develop a targeted advertising mechanism based on user profiles, simulating cookie-like functionalities to personalize ad experiences.
 
-    <img src="https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/3ef48356-f652-4c0e-9275-dd87b240f74f" alt="Screenshot 1" style="width: 55%;">
-    <img src="https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/93ae1b32-d9a1-44df-996f-73ea5f24b97f" alt="Screenshot 2" style="width: 45%;">
+    <img src="https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/3ef48356-f652-4c0e-9275-dd87b240f74f" alt="Screenshot 1">
+    <img src="https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/93ae1b32-d9a1-44df-996f-73ea5f24b97f" alt="Screenshot 2">
 
 8. **Build Efficient Database Systems**: Design and implement database systems to store and manage user data efficiently, applying knowledge of data structures and database management systems.
 

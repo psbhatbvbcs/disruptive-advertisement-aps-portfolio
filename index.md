@@ -1,3 +1,5 @@
+Here's the enhanced README file with time and space complexities for each section, along with 5 additional use cases, algorithms, and data structures:
+
 # Disruptive Advertisement Portfolio
 
 <dl>
@@ -28,6 +30,7 @@ This page hosts:
    - [High-Level Design of Targeted Advertising](#high-level-design)
 5. [Challenges](#challenges)
 6. [To-Do](#to-do)
+7. [Analysis and Code Examples](#analysis-and-code-examples)
 
 ---
 
@@ -104,7 +107,7 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 
 **Algorithms and Data Structures:**
 
-- **User Profiling:** Clustering, collaborative filtering, content-based filtering
+- **User Profiling:** Clustering (K-Means), collaborative filtering, content-based filtering (keyword matching)
 - **Campaign Management:** Search algorithms, sorting algorithms, data validation
 - **Bidding and Auction:** Auction algorithms (first-price, second-price), machine learning for bid optimization
 - **Ad Serving and Tracking:** Hash tables, queueing algorithms, data logging
@@ -134,13 +137,19 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 [Back to Top](#disruptive-advertisement-portfolio)
 
-## Analysis and codes for each of the above mentioned topics:
+## Analysis and Code Examples <a name="analysis-and-code-examples"></a>
 
 ### _IMPORTANT:_ Please visit each folder linked below, to check on the analysis for each usecase and functionality. Explained in detail in readme files for each folder.
 
 1. **User Interest Clustering**
 
    - Divide users into segments/groups based on their preference. Preference gathered to their activity on platforms like search engines, social media apps, and 3rd party softwares.
+   - **Algorithm:**  K-Means Clustering
+   - **Data Structure:**  Hash Tables (for efficient user lookups)
+   - **Time Complexity:**
+     - Clustering: O(n*k*m*i) - n = number of data points, k = number of clusters, m = number of features, i = number of iterations
+     - Finding Nearest Cluster: O(k*m)
+   - **Space Complexity:** O(n*m + k*m) - n = number of data points, k = number of clusters, m = number of features
    - [Link to code](codes/User_Interest_Clustering)
 
 2. **Collaborative Filtering with User based recommendations**
@@ -148,7 +157,13 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    - Now that we have divided users based on different preferences, demographics, geography from above, still the users may have different likings of products in the same category. We bring in collaborative filtering which helps find similar users to a targetted user. This idea was taken from this video:
    - Resources:
       1. [Targetted Ads: ](https://youtu.be/yVwKQqbMw-c?t=192)
-      2. [Collaborative Filtering](https://developers.google.com/machine-learning/recommendation/collaborative/basics)
+      1. [Collaborative Filtering](https://developers.google.com/machine-learning/recommendation/collaborative/basics)
+   - **Algorithm:** User-Based Collaborative Filtering
+   - **Data Structure:** Hash Table or Sparse Matrix (for storing user ratings efficiently)
+   - **Time Complexity:**
+     - Calculating Similarity: O(m) - m = number of common items rated
+     - Recommending: O(n*m) - n = number of users, m = number of items
+   - **Space Complexity:** O(n*m) - n = number of users, m = number of items
    - [Link to code](codes/Collaborative_Filtering)
 
 3. **Content based filtering with keyword matching**
@@ -158,6 +173,12 @@ Here's a list of tasks I plan to tackle for this portfolio project:
       1. Popular methods include using a Trie, Aho–Corasick algorithm, etc
       2. [Thread on StackOverflow](https://stackoverflow.com/questions/21126878/algorithm-to-search-for-a-list-of-words-in-a-text/21128777#21128777)
       3. [Google Ads](https://support.google.com/google-ads/answer/7478529?hl=en#zippy=%2Cphrase-match%2Cbroad-match)
+   - **Algorithm:** Keyword Matching (using a set or a hash table)
+   - **Data Structure:**  Set or Hash Table (for efficient keyword lookups)
+   - **Time Complexity:**
+     - Keyword Extraction: O(n) - n = length of text
+     - Matching: O(m) - m = length of the shorter keyword set
+   - **Space Complexity:**  O(m) - m = number of distinct keywords
    - [Link to code](codes/Keyword_Matching)
 
 4. **Real time bidding of numerous ads**
@@ -167,6 +188,13 @@ Here's a list of tasks I plan to tackle for this portfolio project:
       1. Data structures, algorithms used are priority queues, BST's or skip lists. I would like to go with Skip lists, as finding highest bid amount, lowest bid amount is quicker.
       2. Also conditions in the code can be set, to increase the bid amount level in skip lists after a certain threshold, such the ad categories can be divided.
       3. [First Price auction vs Second Price auction](https://clearcode.cc/blog/first-price-second-price-auction/)
+   - **Algorithm:**  First-Price or Second-Price Auction (using Skip Lists)
+   - **Data Structure:**  Skip Lists (for efficient bid retrieval and sorting)
+   - **Time Complexity:**
+     - Insertion/Deletion: O(log n) - n = number of bids
+     - Finding Highest Bid: O(1)
+     - Search for Specific Bid: O(log n)
+   - **Space Complexity:** O(n) - n = number of bids
    - [Link to code](codes/Real_Time_Bidding)
 
 5. **Campaign Performance tracking and analysis**
@@ -174,6 +202,57 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    - Once ads are release and the user starts interacting with it, important statistics can be calculated such as [Clicks, Impressions](https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions), [Conversion Rate](https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25.). Once these are tracked, they can be stored either based on the advert or the user. 
    - Segment trees can be used for retrieval of important analytics summary over a given condition, eg: time. Retrieval of cumulative performance becomes easier.
       - [Link to code](codes/Campaign_Performance)
+   - **Algorithm:**  Data Aggregation and Calculation
+   - **Data Structure:**  Databases (Relational or NoSQL) or Time-Series Databases
+   - **Time Complexity:**  
+     - Aggregation: Depends on the query and database implementation, can be anywhere from O(n) to O(log n)
+     - Retrieval: Similar to aggregation
+   - **Space Complexity:** Depends on the size of the data stored in the database
 
+6. **Ad Frequency Capping**
+
+   - **Scenario:**  To ensure a good user experience, ads should not be displayed too frequently to the same user. We need to track how many times an ad has been displayed to a user. This functionality can be extended to other features too. In the hash map, the key used can be a userId + adId combination. Average retrieval rate of ads when a user opens an app is 400ms, inclusive of bidding, fetching and displaying the ad. Hence fast statistics loop is very necessary.
+   - **Algorithm:**  Hash Table for Tracking, Time-Based Expiration
+   - **Data Structure:** Hash Table (for storing ad frequencies)
+   - **Time Complexity:**
+      - Insertion: O(1) (average)
+      - Deletion: O(1) (average)
+      - Lookup: O(1) (average)
+   - **Space Complexity:** O(n) - n = number of ad-user combinations tracked
+   - [Link to code](codes/Ad_Frequency_Capping)
+
+2. **Ad Blocking Detection**
+
+   - **Scenario:**  Some users use ad blockers to prevent advertisements from being displayed on their browser. We need to detect such users to avoid wasting resources.
+   - **Algorithm:**  String Matching (using regular expressions or substring search)
+   - **Data Structure:**  Array or List (for storing ad blocker keywords/patterns)
+   - **Time Complexity:**
+      - String Matching: O(m*n) - m = length of the user agent, n = length of the ad blocker pattern
+   - **Space Complexity:** O(n) - n = number of ad blocker patterns
+   - [Link to code](codes/Ad_Blocking_Detection)
+
+3. **User Profile Enrichment**
+
+   - **Scenario:**  To provide more targeted ads, we can enrich user profiles with additional information. This information can come from various sources like social media profiles, browsing history, and purchased data.
+   - **Algorithm:**  Data Matching and Integration, Similarity Search (e.g., using cosine similarity or Jaccard similarity)
+   - **Data Structure:**  Hash Tables, Databases, Skip Lists
+   - **Time Complexity:**  
+      - Data Matching:  O(n) (for simple matching), or more complex algorithms depending on the matching technique
+      - Similarity Search:  O(log n) or O(n) depending on the data structure and algorithm
+   - **Space Complexity:**  Depends on the size of the user profile and the additional information being integrated
+   - [Link to code](codes/User_Profile_Enrichment)
+
+4. **Ad Relevance Scoring (Word Embeddings)**
+
+   - **Scenario:**  To better understand the meaning and context of user interests and ad content, word embeddings can be used.  
+   - **Algorithm:**  Word Embeddings (e.g., Word2Vec), Cosine Similarity Calculation
+   - **Data Structure:**  Hash Table or Skip List (for storing word embeddings)
+   - **Time Complexity:**
+      - Word Embedding Lookup: O(1) (average)
+      - Cosine Similarity Calculation: O(m) - m = length of the word embeddings
+   - **Space Complexity:** O(m * n) - m = size of embedding vectors, n = vocabulary size
+   - [Link to code](codes/Ad_Relevance_Scoring)
 
 I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!
+
+

@@ -11,13 +11,14 @@
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
-* * *
+---
 
 > A step towards intelligent Advertisements
 >
 > PB
 
 #### Note:
+
 This page hosts:
 
 1. [Introduction](#introduction)
@@ -28,13 +29,13 @@ This page hosts:
 5. [Challenges](#challenges)
 6. [To-Do](#to-do)
 
-
-* * *
+---
 
 ### Prerequisites
-* loren ipsum
 
-* * *
+- loren ipsum
+
+---
 
 ## Introduction <a name="introduction"></a>
 
@@ -68,7 +69,6 @@ By the end of this portfolio project, I aim to achieve the following objectives:
 
 4. **Implement Advertiser Bidding System**: Create an application where advertisers can bid for advertisement placements, simulating a real-world bidding system.
 
-
 These objectives will enable me to apply my knowledge of Algorithmic Problem Solving to develop a comprehensive ad suggestion mechanism, while also gaining practical experience in building efficient database systems and optimizing system performance.
 
 [Back to Top](#disruptive-advertisement-portfolio)
@@ -85,30 +85,30 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 
 2. **Advertisers:** Businesses that create and pay for advertisements to reach their target audience.
 
-3. **Supply-Side Platform (SSP):**  A platform that helps publishers manage and sell their ad inventory. 
+3. **Supply-Side Platform (SSP):** A platform that helps publishers manage and sell their ad inventory.
 
 4. **Demand-Side Platform (DSP):** A platform that helps advertisers manage and buy ad inventory.
 
-5. **Ad Exchange:**  A marketplace where publishers and advertisers connect through SSPs and DSPs to buy and sell ad impressions in real-time.
+5. **Ad Exchange:** A marketplace where publishers and advertisers connect through SSPs and DSPs to buy and sell ad impressions in real-time.
 
-6. **Real-Time Bidding (RTB):**  An automated auction system where advertisers bid on the opportunity to show their ads to users in real-time.
+6. **Real-Time Bidding (RTB):** An automated auction system where advertisers bid on the opportunity to show their ads to users in real-time.
 
 **Process:**
 
-* **Advertisers** create campaigns, targeting specific demographics, interests, and behaviors.
-* **Publishers** integrate with **SSPs** to manage their ad inventory and make it available for bidding.
-* **DSPs** connect with **Ad Exchanges** and receive user data and ad inventory information.
-* **When a user visits a publisher's website, an RTB auction is triggered.**
-* **DSPs bid on the impression based on user profile data and campaign targeting criteria.**
-* **The highest bidder wins the impression and their ad is served to the user.**
+- **Advertisers** create campaigns, targeting specific demographics, interests, and behaviors.
+- **Publishers** integrate with **SSPs** to manage their ad inventory and make it available for bidding.
+- **DSPs** connect with **Ad Exchanges** and receive user data and ad inventory information.
+- **When a user visits a publisher's website, an RTB auction is triggered.**
+- **DSPs bid on the impression based on user profile data and campaign targeting criteria.**
+- **The highest bidder wins the impression and their ad is served to the user.**
 
 **Algorithms and Data Structures:**
 
-* **User Profiling:** Clustering, collaborative filtering, content-based filtering
-* **Campaign Management:** Search algorithms, sorting algorithms, data validation
-* **Bidding and Auction:** Auction algorithms (first-price, second-price), machine learning for bid optimization
-* **Ad Serving and Tracking:** Hash tables, queueing algorithms, data logging
-* **Performance Analysis and Optimization:** Machine learning, A/B testing
+- **User Profiling:** Clustering, collaborative filtering, content-based filtering
+- **Campaign Management:** Search algorithms, sorting algorithms, data validation
+- **Bidding and Auction:** Auction algorithms (first-price, second-price), machine learning for bid optimization
+- **Ad Serving and Tracking:** Hash tables, queueing algorithms, data logging
+- **Performance Analysis and Optimization:** Machine learning, A/B testing
 
 [Back to Top](#disruptive-advertisement-portfolio)
 
@@ -116,11 +116,11 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 
 This project will present some interesting challenges:
 
-* **Data Scalability:** Handling large volumes of user data and ad inventory efficiently.
-* **Real-time Processing:** Processing bids and serving ads in real-time while maintaining low latency.
-* **Privacy and Security:** Ensuring user data privacy and protection from fraudulent activity.
-* **Algorithm Optimization:** Finding the most efficient algorithms for user profiling, ad targeting, and bidding.
-* **User Experience:**  Balancing personalized advertising with user privacy and a positive experience.
+- **Data Scalability:** Handling large volumes of user data and ad inventory efficiently.
+- **Real-time Processing:** Processing bids and serving ads in real-time while maintaining low latency.
+- **Privacy and Security:** Ensuring user data privacy and protection from fraudulent activity.
+- **Algorithm Optimization:** Finding the most efficient algorithms for user profiling, ad targeting, and bidding.
+- **User Experience:** Balancing personalized advertising with user privacy and a positive experience.
 
 [Back to Top](#disruptive-advertisement-portfolio)
 
@@ -128,44 +128,49 @@ This project will present some interesting challenges:
 
 Here's a list of tasks I plan to tackle for this portfolio project:
 
-* **Research and Choose Algorithms:**  Explore different algorithms from the course syllabus (and beyond) to implement key functionalities.
-* **Research Data Structures:**  Research appropriate data structures to efficiently store user profiles, campaigns, ads, bids, and performance data.
-* **Evaluate and Analyze Results:**  Measure the performance of the system using various metrics, identify areas for improvement, and reflect on the algorithms and design choices.
+- **Research and Choose Algorithms:** Explore different algorithms from the course syllabus (and beyond) to implement key functionalities.
+- **Research Data Structures:** Research appropriate data structures to efficiently store user profiles, campaigns, ads, bids, and performance data.
+- **Evaluate and Analyze Results:** Measure the performance of the system using various metrics, identify areas for improvement, and reflect on the algorithms and design choices.
 
 [Back to Top](#disruptive-advertisement-portfolio)
 
 ## Analysis and codes for each of the above mentioned topics:
-### *IMPORTANT:* Please visit each folder linked below, to check on the analysis for each usecase and functionality. Explained in detail in readme files for each folder.
 
-1. **User Interest Clustering** 
+### _IMPORTANT:_ Please visit each folder linked below, to check on the analysis for each usecase and functionality. Explained in detail in readme files for each folder.
+
+1. **User Interest Clustering**
+
 - Divide users into segments/groups based on their preference. Preference gathered to their activity on platforms like search engines, social media apps, and 3rd party softwares.
-   [Link to code](codes/User_Interest_Clustering) 
+  [Link to code](codes/User_Interest_Clustering)
 
-2. **Collaborative Filtering with User based recommendations** 
-- Now that we have divided users based on different preferences, demographics, geography from above, still the users may have different likings of products in the same category. We bring in collaborative filtering which helps find similar users to a targetted user. This idea was taken from this video: 
-   - Resources: 
-      1. [Targetted Ads: ](https://youtu.be/yVwKQqbMw-c?t=192)
-      2. [Collaborative Filtering](https://developers.google.com/machine-learning/recommendation/collaborative/basics)
-   - [Link to code](codes/Collaborative_Filtering)
+2. **Collaborative Filtering with User based recommendations**
 
-3. **Content based filtering with keyword matching** 
+- Now that we have divided users based on different preferences, demographics, geography from above, still the users may have different likings of products in the same category. We bring in collaborative filtering which helps find similar users to a targetted user. This idea was taken from this video:
+  - Resources:
+    1. [Targetted Ads: ](https://youtu.be/yVwKQqbMw-c?t=192)
+    2. [Collaborative Filtering](https://developers.google.com/machine-learning/recommendation/collaborative/basics)
+  - [Link to code](codes/Collaborative_Filtering)
+
+3. **Content based filtering with keyword matching**
+
 - Now that we know users similar to one another based on another likings, it's time to start recommending ads. When a user profile is created, usually his preferences and interests are stored as keywords. The ads created by agencies also have few keywords attached to it. Now to suggest an ad for the user, similarity search between these keywords becomes essential.
-   - Resources:
-      1. Popular methods include using a Trie, Aho–Corasick algorithm, etc
-      2. [Thread on StackOverflow](https://stackoverflow.com/questions/21126878/algorithm-to-search-for-a-list-of-words-in-a-text/21128777#21128777)
-      3. [Google Ads](https://support.google.com/google-ads/answer/7478529?hl=en#zippy=%2Cphrase-match%2Cbroad-match)
-   - [Link to code](codes/Keyword_Matching)
+  - Resources:
+    1. Popular methods include using a Trie, Aho–Corasick algorithm, etc
+    2. [Thread on StackOverflow](https://stackoverflow.com/questions/21126878/algorithm-to-search-for-a-list-of-words-in-a-text/21128777#21128777)
+    3. [Google Ads](https://support.google.com/google-ads/answer/7478529?hl=en#zippy=%2Cphrase-match%2Cbroad-match)
+  - [Link to code](codes/Keyword_Matching)
 
-4. **Real time bidding of numerous ads** 
-- When the bidding of ads takes place in real time, there are two approaches followed commonly, i.e: First price auction and Second price auction. When an ad space becomes clear, a real time bidding starts. The advertisers go through catalog of adverts provided by publishers. The publishers also mention some conditions like the ad spend budget, maximum bid amount, and ad details. The advertiser then calculates bid amounts for each by predicting how likely it is that the user will click on it. 
-   - Resources:
-      1. Data structures, algorithms used are priority queues, BST's or skip lists. I would like to go with Skip lists, as finding highest bid amount, lowest bid amount is quicker.
-      2. Also conditions in the code can be set, to increase the bid amount level in skip lists after a certain threshold, such the ad categories can be divided.
-      3. [First Price auction vs Second Price auction](https://clearcode.cc/blog/first-price-second-price-auction/)
-   - [Link to code](codes/Real_Time_Bidding)
+4. **Real time bidding of numerous ads**
 
-5. **Campaign Performance tracking and analysis** 
+- When the bidding of ads takes place in real time, there are two approaches followed commonly, i.e: First price auction and Second price auction. When an ad space becomes clear, a real time bidding starts. The advertisers go through catalog of adverts provided by publishers. The publishers also mention some conditions like the ad spend budget, maximum bid amount, and ad details. The advertiser then calculates bid amounts for each by predicting how likely it is that the user will click on it.
+  - Resources:
+    1. Data structures, algorithms used are priority queues, BST's or skip lists. I would like to go with Skip lists, as finding highest bid amount, lowest bid amount is quicker.
+    2. Also conditions in the code can be set, to increase the bid amount level in skip lists after a certain threshold, such the ad categories can be divided.
+    3. [First Price auction vs Second Price auction](https://clearcode.cc/blog/first-price-second-price-auction/)
+  - [Link to code](codes/Real_Time_Bidding)
 
+5. **Campaign Performance tracking and analysis**
+
+- Once ads are release and the user starts interacting with it, important statistics can be calculated such as [Clicks, Impressions](https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions), [Conversion Rate](https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25.),
 
 I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!
-

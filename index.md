@@ -134,5 +134,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 [Back to Top](#disruptive-advertisement-portfolio)
 
+## Analysis and codes for each of the above mentioned topics:
+### *IMPORTANT:* Please visit each folder linked below, to check on the analysis for each usecase and functionality. Explained in detail in readme files for each folder.
+
+1. **User Interest Clustering:** Divide users into segments/groups based on their preference. Preference gathered to their activity on platforms like search engines, social media apps, and 3rd party softwares.
+   _Link:_ [a relative link](codes/User_Interest_Clustering) 
+
 I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!
 

@@ -55,8 +55,6 @@ Creating a portfolio project for my Algorithmic Problem Solving course, focusing
 
 [Back to Top](#disruptive-advertisement-portfolio)
 
-[a relative link](codes/User_Interest_Clustering)
-
 ## Objectives <a name="objectives"></a>
 
 By the end of this portfolio project, I aim to achieve the following objectives:

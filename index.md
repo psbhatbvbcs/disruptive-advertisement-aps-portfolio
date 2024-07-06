@@ -221,37 +221,6 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    - **Space Complexity:** O(n) - n = number of ad-user combinations tracked
    - [Link to code](codes/Ad_Frequency_Capping)
 
-2. **Ad Blocking Detection**
-
-   - **Scenario:**  Some users use ad blockers to prevent advertisements from being displayed on their browser. We need to detect such users to avoid wasting resources.
-   - **Algorithm:**  String Matching (using regular expressions or substring search)
-   - **Data Structure:**  Array or List (for storing ad blocker keywords/patterns)
-   - **Time Complexity:**
-      - String Matching: O(m*n) - m = length of the user agent, n = length of the ad blocker pattern
-   - **Space Complexity:** O(n) - n = number of ad blocker patterns
-   - [Link to code](codes/Ad_Blocking_Detection)
-
-3. **User Profile Enrichment**
-
-   - **Scenario:**  To provide more targeted ads, we can enrich user profiles with additional information. This information can come from various sources like social media profiles, browsing history, and purchased data.
-   - **Algorithm:**  Data Matching and Integration, Similarity Search (e.g., using cosine similarity or Jaccard similarity)
-   - **Data Structure:**  Hash Tables, Databases, Skip Lists
-   - **Time Complexity:**  
-      - Data Matching:  O(n) (for simple matching), or more complex algorithms depending on the matching technique
-      - Similarity Search:  O(log n) or O(n) depending on the data structure and algorithm
-   - **Space Complexity:**  Depends on the size of the user profile and the additional information being integrated
-   - [Link to code](codes/User_Profile_Enrichment)
-
-4. **Ad Relevance Scoring (Word Embeddings)**
-
-   - **Scenario:**  To better understand the meaning and context of user interests and ad content, word embeddings can be used.  
-   - **Algorithm:**  Word Embeddings (e.g., Word2Vec), Cosine Similarity Calculation
-   - **Data Structure:**  Hash Table or Skip List (for storing word embeddings)
-   - **Time Complexity:**
-      - Word Embedding Lookup: O(1) (average)
-      - Cosine Similarity Calculation: O(m) - m = length of the word embeddings
-   - **Space Complexity:** O(m * n) - m = size of embedding vectors, n = vocabulary size
-   - [Link to code](codes/Ad_Relevance_Scoring)
 
 I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!
 

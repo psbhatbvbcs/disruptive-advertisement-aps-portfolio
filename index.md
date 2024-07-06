@@ -141,7 +141,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 1. **User Interest Clustering**
 
 - Divide users into segments/groups based on their preference. Preference gathered to their activity on platforms like search engines, social media apps, and 3rd party softwares.
-  [Link to code](codes/User_Interest_Clustering)
+  - [Link to code](codes/User_Interest_Clustering)
 
 2. **Collaborative Filtering with User based recommendations**
 
@@ -171,6 +171,9 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 5. **Campaign Performance tracking and analysis**
 
-- Once ads are release and the user starts interacting with it, important statistics can be calculated such as [Clicks, Impressions](https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions), [Conversion Rate](https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25.),
+- Once ads are release and the user starts interacting with it, important statistics can be calculated such as [Clicks, Impressions](https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions), [Conversion Rate](https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25.). Once these are tracked, they can be stored either based on the advert or the user. 
+- Segment trees can be used for retrieval of important analytics summary over a given condition, eg: time. Retrieval of cumulative performance becomes easier.
+   - [Link to code](codes/Campaign_Performance)
+
 
 I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!

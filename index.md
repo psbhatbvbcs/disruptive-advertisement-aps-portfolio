@@ -24,6 +24,7 @@ This page hosts:
 2. [Why Portfolio](#why-portfolio)
 3. [Objectives](#objectives)
 4. [Design](#design)
+   - [High-Level Design of Targeted Advertising](#high-level-design)
 5. [Challenges](#challenges)
 6. [To-Do](#to-do)
 
@@ -73,10 +74,63 @@ These objectives will enable me to apply my knowledge of Algorithmic Problem Sol
 [Back to Top](#disruptive-advertisement-portfolio)
 
 ## Design <a name="design"></a>
+
+### High-Level Design of Targeted Advertising <a name="high-level-design"></a>
+
+Here's a high-level overview of the targeted advertising process, incorporating key players and technologies:
+
+1. **Publishers:** Websites or apps that display advertisements (e.g., news sites, social media platforms).
+
+2. **Advertisers:** Businesses that create and pay for advertisements to reach their target audience.
+
+3. **Supply-Side Platform (SSP):**  A platform that helps publishers manage and sell their ad inventory. 
+
+4. **Demand-Side Platform (DSP):** A platform that helps advertisers manage and buy ad inventory.
+
+5. **Ad Exchange:**  A marketplace where publishers and advertisers connect through SSPs and DSPs to buy and sell ad impressions in real-time.
+
+6. **Real-Time Bidding (RTB):**  An automated auction system where advertisers bid on the opportunity to show their ads to users in real-time.
+
+**Process:**
+
+* **Advertisers** create campaigns, targeting specific demographics, interests, and behaviors.
+* **Publishers** integrate with **SSPs** to manage their ad inventory and make it available for bidding.
+* **DSPs** connect with **Ad Exchanges** and receive user data and ad inventory information.
+* **When a user visits a publisher's website, an RTB auction is triggered.**
+* **DSPs bid on the impression based on user profile data and campaign targeting criteria.**
+* **The highest bidder wins the impression and their ad is served to the user.**
+
+**Algorithms and Data Structures:**
+
+* **User Profiling:** Clustering, collaborative filtering, content-based filtering
+* **Campaign Management:** Search algorithms, sorting algorithms, data validation
+* **Bidding and Auction:** Auction algorithms (first-price, second-price), machine learning for bid optimization
+* **Ad Serving and Tracking:** Hash tables, queueing algorithms, data logging
+* **Performance Analysis and Optimization:** Machine learning, A/B testing
+
 [Back to Top](#disruptive-advertisement-portfolio)
 
 ## Challenges <a name="challenges"></a>
+
+This project will present some interesting challenges:
+
+* **Data Scalability:** Handling large volumes of user data and ad inventory efficiently.
+* **Real-time Processing:** Processing bids and serving ads in real-time while maintaining low latency.
+* **Privacy and Security:** Ensuring user data privacy and protection from fraudulent activity.
+* **Algorithm Optimization:** Finding the most efficient algorithms for user profiling, ad targeting, and bidding.
+* **User Experience:**  Balancing personalized advertising with user privacy and a positive experience.
+
 [Back to Top](#disruptive-advertisement-portfolio)
 
 ## To-Do <a name="to-do"></a>
+
+Here's a list of tasks I plan to tackle for this portfolio project:
+
+* **Research and Choose Algorithms:**  Explore different algorithms from the course syllabus (and beyond) to implement key functionalities.
+* **Research Data Structures:**  Research appropriate data structures to efficiently store user profiles, campaigns, ads, bids, and performance data.
+* **Evaluate and Analyze Results:**  Measure the performance of the system using various metrics, identify areas for improvement, and reflect on the algorithms and design choices.
+
 [Back to Top](#disruptive-advertisement-portfolio)
+
+I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!
+

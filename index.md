@@ -138,16 +138,21 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### *IMPORTANT:* Please visit each folder linked below, to check on the analysis for each usecase and functionality. Explained in detail in readme files for each folder.
 
 1. **User Interest Clustering:** Divide users into segments/groups based on their preference. Preference gathered to their activity on platforms like search engines, social media apps, and 3rd party softwares.
-   [Link: ](codes/User_Interest_Clustering) 
+   [Link to code](codes/User_Interest_Clustering) 
 
 2. **Collaborative Filtering with User based recommendations:** Now that we have divided users based on different preferences, demographics, geography from above, still the users may have different likings of products in the same category. We bring in collaborative filtering which helps find similar users to a targetted user. This idea was taken from this video: 
    - Resources: 
       1. [Targetted Ads: ](https://youtu.be/yVwKQqbMw-c?t=192)
       2. [Collaborative Filtering: ](https://developers.google.com/machine-learning/recommendation/collaborative/basics)
-   [Link: ](codes/Collaborative_Filtering)
+   [Link to code](codes/Collaborative_Filtering)
 
 3. **Content based filtering with keyword matching:** Now that we know users similar to one another based on another likings, it's time to start recommending ads. When a user profile is created, usually his preferences and interests are stored as keywords. The ads created by agencies also have few keywords attached to it. Now to suggest an ad for the user, similarity search between these keywords becomes essential.
-   - Popular methods include using a Trie 
+   - Resources:
+      1. Popular methods include using a Trie, Aho–Corasick algorithm, etc
+      2. [Thread on StackOverflow](https://stackoverflow.com/questions/21126878/algorithm-to-search-for-a-list-of-words-in-a-text/21128777#21128777)
+      3. [Google Ads](https://support.google.com/google-ads/answer/7478529?hl=en#zippy=%2Cphrase-match%2Cbroad-match)
+   [Link to code](codes/Keyword_Matching)
+
 
 I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!
 

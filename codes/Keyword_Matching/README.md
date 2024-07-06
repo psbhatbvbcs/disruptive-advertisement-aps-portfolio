@@ -1,0 +1,1 @@
+Takes care of string matching in linear time.

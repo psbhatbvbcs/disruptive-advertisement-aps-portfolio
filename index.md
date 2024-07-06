@@ -153,6 +153,15 @@ Here's a list of tasks I plan to tackle for this portfolio project:
       3. [Google Ads](https://support.google.com/google-ads/answer/7478529?hl=en#zippy=%2Cphrase-match%2Cbroad-match)
    - [Link to code](codes/Keyword_Matching)
 
+4. **Real time bidding of numerous ads:** When the bidding of ads takes place in real time, there are two approaches followed commonly, i.e: First price auction and Second price auction. When an ad space becomes clear, a real time bidding starts. The advertisers go through catalog of adverts provided by publishers. The publishers also mention some conditions like the ad spend budget, maximum bid amount, and ad details. The advertiser then calculates bid amounts for each by predicting how likely it is that the user will click on it. 
+   - Resources:
+      1. Data structures, algorithms used are priority queues, BST's or skip lists. I would like to go with Skip lists, as finding highest bid amount, lowest bid amount is quicker.
+      2. Also conditions in the code can be set, to increase the bid amount level in skip lists after a certain threshold, such the ad categories can be divided.
+      3. [First Price auction vs Second Price auction](https://clearcode.cc/blog/first-price-second-price-auction/)
+   - [Link to code](codes/Real_Time_Bidding)
+
+5. **
+
 
 I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!
 

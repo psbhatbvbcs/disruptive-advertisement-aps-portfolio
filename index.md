@@ -77,6 +77,8 @@ These objectives will enable me to apply my knowledge of Algorithmic Problem Sol
 
 ### High-Level Design of Targeted Advertising <a name="high-level-design"></a>
 
+![targetted_advert_image1](https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/d3fb79bd-9c39-4c22-ac86-c821c9283b24)
+
 Here's a high-level overview of the targeted advertising process, incorporating key players and technologies:
 
 1. **Publishers:** Websites or apps that display advertisements (e.g., news sites, social media platforms).

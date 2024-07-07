@@ -1,0 +1,3 @@
+- Hashmap has a time complexity of O(1) for creating, updation and retreival. 
+- The keys used to keep track of each record could be a combined key of fields like user id, ad id and others.
+- This would help in keeping a track of frequency and other statistics for each user and ad in constant time.

@@ -1,0 +1,5 @@
+- As the number of suggested ads will not be a very large dataset for a particular user, we can use weighted random selection and it's O(n) time complexity.
+- Eg: 
+    - The suggested ad categories for a user include: food, shoes, clothing.
+    - The user has started browsing the social media app. He has a fairly bad time today and is interacting negatively.
+    - In such a case an ad from the food category may convert to a purchase as people prefer eating in stressed or negative situations.

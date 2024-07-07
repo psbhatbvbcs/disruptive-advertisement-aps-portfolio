@@ -141,7 +141,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 ### _IMPORTANT:_ Please visit each folder linked below, to check on the analysis for each usecase and functionality. Explained in detail in readme files for each folder.
 
-1. **User Interest Clustering**
+## 1. User Interest Clustering
 
    - Divide users into segments/groups based on their preference. Preference gathered to their activity on platforms like search engines, social media apps, and 3rd party softwares.
    - **Algorithm:**  K-Means Clustering
@@ -152,7 +152,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    - **Space Complexity:** O(n*m + k*m) - n = number of data points, k = number of clusters, m = number of features
    - [Link to code](codes/User_Interest_Clustering)
 
-2. **Collaborative Filtering with User based recommendations**
+## 2. Collaborative Filtering with User based recommendations
 
    - Now that we have divided users based on different preferences, demographics, geography from above, still the users may have different likings of products in the same category. We bring in collaborative filtering which helps find similar users to a targetted user. This idea was taken from this video:
    - Resources:
@@ -166,7 +166,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    - **Space Complexity:** O(n*m) - n = number of users, m = number of items
    - [Link to code](codes/Collaborative_Filtering)
 
-3. **Content based filtering with keyword matching**
+## 3. Content based filtering with keyword matching
 
    - Now that we know users similar to one another based on another likings, it's time to start recommending ads. When a user profile is created, usually his preferences and interests are stored as keywords. The ads created by agencies also have few keywords attached to it. Now to suggest an ad for the user, similarity search between these keywords becomes essential.
    - Resources:
@@ -181,7 +181,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    - **Space Complexity:**  O(m) - m = number of distinct keywords
    - [Link to code](codes/Keyword_Matching)
 
-4. **Real time bidding of numerous ads**
+## 4. Real time bidding of numerous ads
 
    - When the bidding of ads takes place in real time, there are two approaches followed commonly, i.e: First price auction and Second price auction. When an ad space becomes clear, a real time bidding starts. The advertisers go through catalog of adverts provided by publishers. The publishers also mention some conditions like the ad spend budget, maximum bid amount, and ad details. The advertiser then calculates bid amounts for each by predicting how likely it is that the user will click on it.
    - Resources:
@@ -197,7 +197,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    - **Space Complexity:** O(n) - n = number of bids
    - [Link to code](codes/Real_Time_Bidding)
 
-5. **Campaign Performance tracking and analysis**
+## 5. Campaign Performance tracking and analysis
 
    - Once ads are release and the user starts interacting with it, important statistics can be calculated such as [Clicks, Impressions](https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions), [Conversion Rate](https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25.). Once these are tracked, they can be stored either based on the advert or the user. 
    - Segment trees can be used for retrieval of important analytics summary over a given condition, eg: time. Retrieval of cumulative performance becomes easier.
@@ -209,7 +209,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
      - Retrieval: Similar to aggregation
    - **Space Complexity:** Depends on the size of the data stored in the database
 
-# 6. Ad Frequency Capping
+## 6. Ad Frequency Capping
 
    - **Scenario:**  To ensure a good user experience, ads should not be displayed too frequently to the same user. We need to track how many times an ad has been displayed to a user. This functionality can be extended to other features too. In the hash map, the key used can be a userId + adId combination. Average retrieval rate of ads when a user opens an app is 400ms, inclusive of bidding, fetching and displaying the ad. Hence fast statistics loop is very necessary.
    - **Algorithm:**  Hash Table for Tracking, Time-Based Expiration
@@ -220,6 +220,19 @@ Here's a list of tasks I plan to tackle for this portfolio project:
       - Lookup: O(1) (average)
    - **Space Complexity:** O(n) - n = number of ad-user combinations tracked
    - [Link to code](codes/Ad_Frequency_Capping)
+
+## 7. Ad Display
+
+   - **Scenario:** Once we have a list of all the ads that we would like to display to the user, to increase the conversion rate of the ad, we can track the interactivity of the user in real time. The interactivity can be categorized as a positive or negative interaction. Based on this, algorithms like weighted random selection can be used to select ads in these specific categories. 
+   - Eg: If a user is currently scrolling through content on the Instagram app, if he likes a video about shoes, and his ad suggestions also have ads related to shoes, it maybe a good time to display those
+   - **Algorithm:**  Weighted random selection
+   - **Data Structure:** Maps, Vectors
+   - **Time Complexity:**
+      - Lookup: O(n)
+   - **Space Complexity:** O(n) - n = number of weighted ads (suggested) for each user.
+   - [Link to code](codes/Ad_Display)
+   
+
 
 
 I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!

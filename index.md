@@ -38,7 +38,7 @@ This page hosts:
 
 ---
 
-## Introduction <a name="introduction"></a>
+# Introduction <a name="introduction"></a>
 
 Disruptive advertisements, driven by sophisticated algorithms and big data analytics, reshape marketing by delivering personalized ad experiences. Tailored to individual preferences, they enhance user engagement and brand satisfaction. Companies benefit from optimized targeting, yielding higher conversion rates and ROI. These ads offer valuable insights into consumer behavior, refining marketing strategies and boosting competitiveness. Ultimately, disruptive advertisements signify a paradigm shift, aligning user satisfaction with business success, and standing as a cornerstone of modern digital marketing strategies.
 
@@ -58,7 +58,7 @@ Creating a portfolio project for my Algorithmic Problem Solving course, focusing
 
 [Back to Top](#disruptive-advertisement-portfolio)
 
-## Objectives <a name="objectives"></a>
+# Objectives <a name="objectives"></a>
 
 By the end of this portfolio project, I aim to achieve the following objectives:
 
@@ -74,7 +74,7 @@ These objectives will enable me to apply my knowledge of Algorithmic Problem Sol
 
 [Back to Top](#disruptive-advertisement-portfolio)
 
-## Design <a name="design"></a>
+# Design <a name="design"></a>
 
 ### High-Level Design of Targeted Advertising <a name="high-level-design"></a>
 
@@ -113,29 +113,7 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 
 [Back to Top](#disruptive-advertisement-portfolio)
 
-## Challenges <a name="challenges"></a>
-
-This project will present some interesting challenges:
-
-- **Data Scalability:** Handling large volumes of user data and ad inventory efficiently.
-- **Real-time Processing:** Processing bids and serving ads in real-time while maintaining low latency.
-- **Privacy and Security:** Ensuring user data privacy and protection from fraudulent activity.
-- **Algorithm Optimization:** Finding the most efficient algorithms for user profiling, ad targeting, and bidding.
-- **User Experience:** Balancing personalized advertising with user privacy and a positive experience.
-
-[Back to Top](#disruptive-advertisement-portfolio)
-
-## To-Do <a name="to-do"></a>
-
-Here's a list of tasks I plan to tackle for this portfolio project:
-
-- **Research and Choose Algorithms:** Explore different algorithms from the course syllabus (and beyond) to implement key functionalities.
-- **Research Data Structures:** Research appropriate data structures to efficiently store user profiles, campaigns, ads, bids, and performance data.
-- **Evaluate and Analyze Results:** Measure the performance of the system using various metrics, identify areas for improvement, and reflect on the algorithms and design choices.
-
-[Back to Top](#disruptive-advertisement-portfolio)
-
-## Analysis and Code Examples <a name="analysis-and-code-examples"></a>
+# Analysis and Code Examples <a name="analysis-and-code-examples"></a>
 
 ### _IMPORTANT:_ Please visit each folder linked below, to check on the analysis for each usecase and functionality. Explained in detail in readme files for each folder.
 
@@ -256,4 +234,20 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    - [Link to code](codes/Ad_Display)
    
 
+# References 
 
+[1]  "Targetted Ads", YouTube, Google LLC, 2023. [Online]. Available: [https://youtu.be/yVwKQqbMw-c?t=192](https://youtu.be/yVwKQqbMw-c?t=192)
+
+[2] "Collaborative Filtering", Google Cloud, Google LLC, 2023. [Online]. Available: [https://developers.google.com/machine-learning/recommendation/collaborative/basics](https://developers.google.com/machine-learning/recommendation/collaborative/basics)
+
+[3] "Algorithm to search for a list of words in a text", Stack Overflow, 2013. [Online]. Available: [https://stackoverflow.com/questions/21126878/algorithm-to-search-for-a-list-of-words-in-a-text/21128777#21128777](https://stackoverflow.com/questions/21126878/algorithm-to-search-for-a-list-of-words-in-a-text/21128777#21128777)
+
+[4] "Keyword Matching", Google Ads Help, Google LLC, 2023. [Online]. Available: [https://support.google.com/google-ads/answer/7478529?hl=en#zippy=%2Cphrase-match%2Cbroad-match](https://support.google.com/google-ads/answer/7478529?hl=en#zippy=%2Cphrase-match%2Cbroad-match)
+
+[5] "First Price auction vs Second Price auction", Clearcode, 2023. [Online]. Available: [https://clearcode.cc/blog/first-price-second-price-auction/](https://clearcode.cc/blog/first-price-second-price-auction/)
+
+[6] "Ad Clicks vs. Ad Impressions", Klipfolio, 2023. [Online]. Available: [https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions](https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions)
+
+[7] "Conversion Rates", Google Ads Help, Google LLC, 2023. [Online]. Available: [https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25](https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25)
+
+[8] "What is a Vector Database?", Pinecone. [Online]. Available: [https://www.pinecone.io/learn/vector-database/](https://www.pinecone.io/learn/vector-database/)

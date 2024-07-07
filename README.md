@@ -1,5 +1,3 @@
-Here's the enhanced README file with time and space complexities for each section, along with 5 additional use cases, algorithms, and data structures:
-
 # Disruptive Advertisement Portfolio
 
 <dl>

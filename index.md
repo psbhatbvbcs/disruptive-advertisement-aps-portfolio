@@ -167,6 +167,10 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    - **Space Complexity:** O(n*m + k*m) - n = number of data points, k = number of clusters, m = number of features
    - [Link to code](codes/User_Interest_Clustering)
 
+| ![K-Means Clustering](https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/008b629e-7b3b-4cd4-a6c2-392c4137b635) | 
+|:--:| 
+| *K-Means Clustering* |
+
 ## 2. Collaborative Filtering with User based recommendations
 
    - Now that we have divided users based on different preferences, demographics, geography from above, still the users may have different likings of products in the same category. We bring in collaborative filtering which helps find similar users to a targetted user. This idea was taken from this video:
@@ -211,6 +215,10 @@ Here's a list of tasks I plan to tackle for this portfolio project:
      - Search for Specific Bid: O(log n)
    - **Space Complexity:** O(n) - n = number of bids
    - [Link to code](codes/Real_Time_Bidding)
+
+| ![Skip Lists](https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/b6dc6227-bff5-4c72-8228-af82889732c6) | 
+|:--:|
+| *Skip Lists* |
 
 ## 5. Campaign Performance tracking and analysis
 

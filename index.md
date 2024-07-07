@@ -122,7 +122,6 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 - More complex user interaction patterns can be deduced through Generative AI through techniques like reinforcement learning. Each successful conversion is a +, and each fail is a -. 
 - One important thing which can be observed in recent times is, storage is of a very low concern in large industries. The profit made from the techniques and methods used outweighs the limitations and price of storage available.
   
-*Vector_Database*
 | ![vector_db](https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/6973b388-07b3-4b21-b87d-70a5fe16e475) | 
 |:--:| 
 | *Vector Database* |

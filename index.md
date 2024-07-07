@@ -209,7 +209,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
      - Retrieval: Similar to aggregation
    - **Space Complexity:** Depends on the size of the data stored in the database
 
-6. **Ad Frequency Capping**
+# 6. Ad Frequency Capping
 
    - **Scenario:**  To ensure a good user experience, ads should not be displayed too frequently to the same user. We need to track how many times an ad has been displayed to a user. This functionality can be extended to other features too. In the hash map, the key used can be a userId + adId combination. Average retrieval rate of ads when a user opens an app is 400ms, inclusive of bidding, fetching and displaying the ad. Hence fast statistics loop is very necessary.
    - **Algorithm:**  Hash Table for Tracking, Time-Based Expiration

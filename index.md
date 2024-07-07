@@ -152,6 +152,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 - One important thing which can be observed in recent times is, storage is of a very low concern in large industries. The profit made from the techniques and methods used outweighs the limitations and price of storage available.
   
 ![vector_db](https://github.com/psbhatbvbcs/disruptive-advertisement.github.io/assets/96832303/6973b388-07b3-4b21-b87d-70a5fe16e475)
+*Vector_Database*
 
 ## 1. User Interest Clustering
 

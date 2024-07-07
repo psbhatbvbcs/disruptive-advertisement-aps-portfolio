@@ -26,9 +26,8 @@ This page hosts:
 3. [Objectives](#objectives)
 4. [Design](#design)
    - [High-Level Design of Targeted Advertising](#high-level-design)
-5. [Challenges](#challenges)
-6. [To-Do](#to-do)
-7. [Analysis and Code Examples](#analysis-and-code-examples)
+5. [Analysis and Code Examples](#analysis-and-code-examples)
+6. [References](#references)
 
 ---
 
@@ -234,7 +233,7 @@ Here's a high-level overview of the targeted advertising process, incorporating 
    - [Link to code](codes/Ad_Display)
    
 
-# References 
+# References <a name="references"></a>
 
 [1]  "Targetted Ads", YouTube, Google LLC, 2023. [Online]. Available: [https://youtu.be/yVwKQqbMw-c?t=192](https://youtu.be/yVwKQqbMw-c?t=192)
 

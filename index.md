@@ -249,7 +249,3 @@ Here's a list of tasks I plan to tackle for this portfolio project:
    
 
 
-
-I'm excited to delve deeper into this project and explore the intricate world of targeted advertising!
-
-

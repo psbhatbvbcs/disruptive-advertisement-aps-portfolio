@@ -141,6 +141,18 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 ### _IMPORTANT:_ Please visit each folder linked below, to check on the analysis for each usecase and functionality. Explained in detail in readme files for each folder.
 
+### Analysis and Preface
+
+- With the advent of new type of databases and generative AI recently, a paradigm shift can be seen.
+- New algorithms, data structures and techniques have developed to aid in analysis and prediction in various types of usecases.
+- A shift from Machine learning algorithms to analyse and predict may see a shift to use AI based models for better results. 
+- Databases like Vector databases have gained popularity. These help in storing vector embeddings and fast retrieval of it.
+- These databases can be used to store details about a user's preference, ad details like their price, their metadata and other details.
+- Vector databases are designed in such a way that filtering similar objects to a particular query is quicker than traditional databases.
+- Algorithms like random projection, local-sensitive hashing, etc. are used for creation and updation of vectors. Filtering using similarity techniques (co-sine similarity, euclidean distance) are used.
+- More complex user interaction patterns can be deduced through Generative AI through techniques like reinforcement learning. Each successful conversion is a +, and each fail is a -. 
+- One important thing which can be observed in recent times is, storage is of a very low concern in large industries. The profit made from the techniques and methods used outweighs the limitations and price of storage available.
+
 ## 1. User Interest Clustering
 
    - Divide users into segments/groups based on their preference. Preference gathered to their activity on platforms like search engines, social media apps, and 3rd party softwares.
@@ -173,7 +185,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
       1. Popular methods include using a Trie, Aho–Corasick algorithm, etc
       2. [Thread on StackOverflow](https://stackoverflow.com/questions/21126878/algorithm-to-search-for-a-list-of-words-in-a-text/21128777#21128777)
       3. [Google Ads](https://support.google.com/google-ads/answer/7478529?hl=en#zippy=%2Cphrase-match%2Cbroad-match)
-   - **Algorithm:** Keyword Matching (using a set or a hash table)
+   - **Algorithm:** Aho–Corasick or Jaccard Similarity
    - **Data Structure:**  Set or Hash Table (for efficient keyword lookups)
    - **Time Complexity:**
      - Keyword Extraction: O(n) - n = length of text
@@ -200,14 +212,14 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ## 5. Campaign Performance tracking and analysis
 
    - Once ads are release and the user starts interacting with it, important statistics can be calculated such as [Clicks, Impressions](https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions), [Conversion Rate](https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25.). Once these are tracked, they can be stored either based on the advert or the user. 
-   - Segment trees can be used for retrieval of important analytics summary over a given condition, eg: time. Retrieval of cumulative performance becomes easier.
-      - [Link to code](codes/Campaign_Performance)
+   - Segment trees can be used for retrieval of important analytics summary over a given condition, eg: time. Retrieval of cumulative performance becomes easier.   
    - **Algorithm:**  Data Aggregation and Calculation
    - **Data Structure:**  Databases (Relational or NoSQL) or Time-Series Databases
    - **Time Complexity:**  
      - Aggregation: Depends on the query and database implementation, can be anywhere from O(n) to O(log n)
      - Retrieval: Similar to aggregation
    - **Space Complexity:** Depends on the size of the data stored in the database
+   - [Link to code](codes/Campaign_Performance)
 
 ## 6. Ad Frequency Capping
 

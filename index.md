@@ -128,7 +128,7 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 
 ## 1. User Interest Clustering
 
-   - Divide users into segments/groups based on their preference. Preference gathered to their activity on platforms like search engines, social media apps, and 3rd party softwares.
+   - **Scenario:**  Divide users into segments/groups based on their preference. Preference gathered to their activity on platforms like search engines, social media apps, and 3rd party softwares.
    - **Algorithm:**  K-Means Clustering
    - **Data Structure:**  Hash Tables (for efficient user lookups)
    - **Time Complexity:**
@@ -143,7 +143,7 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 
 ## 2. Collaborative Filtering with User based recommendations
 
-   - Now that we have divided users based on different preferences, demographics, geography from above, still the users may have different likings of products in the same category. We bring in collaborative filtering which helps find similar users to a targetted user. This idea was taken from this video:
+   - **Scenario:**  Now that we have divided users based on different preferences, demographics, geography from above, still the users may have different likings of products in the same category. We bring in collaborative filtering which helps find similar users to a targetted user. This idea was taken from this video:
    - Resources:
       1. [Targetted Ads: ](https://youtu.be/yVwKQqbMw-c?t=192)
       1. [Collaborative Filtering](https://developers.google.com/machine-learning/recommendation/collaborative/basics)
@@ -157,7 +157,7 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 
 ## 3. Content based filtering with keyword matching
 
-   - Now that we know users similar to one another based on another likings, it's time to start recommending ads. When a user profile is created, usually his preferences and interests are stored as keywords. The ads created by agencies also have few keywords attached to it. Now to suggest an ad for the user, similarity search between these keywords becomes essential.
+   - **Scenario:**  Now that we know users similar to one another based on another likings, it's time to start recommending ads. When a user profile is created, usually his preferences and interests are stored as keywords. The ads created by agencies also have few keywords attached to it. Now to suggest an ad for the user, similarity search between these keywords becomes essential.
    - Resources:
       1. Popular methods include using a Trie, Aho–Corasick algorithm, etc
       2. [Thread on StackOverflow](https://stackoverflow.com/questions/21126878/algorithm-to-search-for-a-list-of-words-in-a-text/21128777#21128777)
@@ -172,7 +172,7 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 
 ## 4. Real time bidding of numerous ads
 
-   - When the bidding of ads takes place in real time, there are two approaches followed commonly, i.e: First price auction and Second price auction. When an ad space becomes clear, a real time bidding starts. The advertisers go through catalog of adverts provided by publishers. The publishers also mention some conditions like the ad spend budget, maximum bid amount, and ad details. The advertiser then calculates bid amounts for each by predicting how likely it is that the user will click on it.
+   - **Scenario:**  When the bidding of ads takes place in real time, there are two approaches followed commonly, i.e: First price auction and Second price auction. When an ad space becomes clear, a real time bidding starts. The advertisers go through catalog of adverts provided by publishers. The publishers also mention some conditions like the ad spend budget, maximum bid amount, and ad details. The advertiser then calculates bid amounts for each by predicting how likely it is that the user will click on it.
    - Resources:
       1. Data structures, algorithms used are priority queues, BST's or skip lists. I would like to go with Skip lists, as finding highest bid amount, lowest bid amount is quicker.
       2. Also conditions in the code can be set, to increase the bid amount level in skip lists after a certain threshold, such the ad categories can be divided.
@@ -192,7 +192,7 @@ Here's a high-level overview of the targeted advertising process, incorporating 
 
 ## 5. Campaign Performance tracking and analysis
 
-   - Once ads are release and the user starts interacting with it, important statistics can be calculated such as [Clicks, Impressions](https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions), [Conversion Rate](https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25.). Once these are tracked, they can be stored either based on the advert or the user. 
+   - **Scenario:**  Once ads are release and the user starts interacting with it, important statistics can be calculated such as [Clicks, Impressions](https://www.klipfolio.com/resources/kpi-examples/digital-marketing/ad-clicks-vs-ad-impressions), [Conversion Rate](https://support.google.com/google-ads/answer/2684489?hl=en#:~:text=Conversion%20rates%20are%20calculated%20by,50%20%C3%B7%201%2C000%20%3D%205%25.). Once these are tracked, they can be stored either based on the advert or the user. 
    - Segment trees can be used for retrieval of important analytics summary over a given condition, eg: time. Retrieval of cumulative performance becomes easier.   
    - **Algorithm:**  Data Aggregation and Calculation
    - **Data Structure:**  Databases (Relational or NoSQL) or Time-Series Databases
